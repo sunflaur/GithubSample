@@ -155,6 +155,7 @@ public class FragmentPagerAdapter extends PagerAdapter {
         switch (type) {
             case LOCAL:
                 mTitleList.add("로컬");
+                break;
             default:
                 mTitleList.add("API");
         }
